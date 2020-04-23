@@ -1,0 +1,28 @@
+/* optimized */
+.header { 
+    margin-bottom: 20px;
+}
+.header a{ 
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.top-header { 
+    background-color: #f5f8fb;
+    padding: 30px 0;
+}
+.top-header .phone { 
+    position: relative;
+}
+
+.phone::before { 
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-image: url(../../images/phone.png);
+    background-size: cover;
+    left: -30px;
+    top: 3px;
+}
+

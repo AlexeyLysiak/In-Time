@@ -1,0 +1,14 @@
+.footer {
+    padding: 40px;
+}
+.footer img{ 
+    height: 20px;
+    width: auto;
+}
+.footer .big-img { 
+    width: 32px;
+    height: 32px;
+}
+.footer .social-link { 
+    width: 160px;
+}

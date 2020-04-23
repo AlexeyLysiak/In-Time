@@ -1,0 +1,36 @@
+.button { 
+    display: inline-block;
+    background-color: transparent;
+    padding: 11px 55px;
+    font-size: 18px;
+    font-weight: 500;
+    height: 52px;
+    width: 100%;
+    border: 2px solid #009688;
+    border-radius: 4px;
+    color: #009688;
+    cursor: pointer;
+}
+.button:hover { 
+    background-color: #009688;
+    color: #fff;
+    text-decoration: none;
+}
+.button-arrow {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 60px;
+    width: 16px;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}

@@ -1,0 +1,22 @@
+.breadcrumbs { 
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 83px;
+}
+.breadcrumbs > li:not(:last-child) { 
+  position: relative;
+  margin-right: 29px;
+}
+.breadcrumbs > li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  background-image: url(../../images/right-arrow.png);
+  width: 5px;
+  height: 8px;
+  top: 6px;
+  right: -17px;
+}
+.breadcrumbs > li > *:not(a) {
+  color: #78909c;
+  pointer-events: none; 
+}

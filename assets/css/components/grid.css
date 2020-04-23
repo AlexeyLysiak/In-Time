@@ -1,0 +1,30 @@
+.grid { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.top-header .grid, .footer .grid, nav.grid { 
+    -webkit-box-pack: justify; 
+        -ms-flex-pack: justify; 
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.grid-large { 
+    margin: 0 -29px;
+}
+
+.grid-item-large { 
+    padding: 0 29px;
+}
+
+.grid-media { 
+    display: grid;
+    grid-gap: 18px;
+    grid-template-areas: 
+    "grid-item-media grid-item-media grid-item-media";
+}
+

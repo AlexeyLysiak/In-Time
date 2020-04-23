@@ -1,0 +1,35 @@
+/* optimized */
+.section { 
+    margin-bottom: 95px;
+}
+.section-small {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.section-title{ 
+    color: #282b2f; 
+    width: 680px;
+}
+.section-media-big { 
+    margin-bottom: 37px;
+}
+.section-media-big img{ 
+    max-height: 400px;
+    object-fit: cover;
+}
+.section-media { 
+    margin-bottom: 37px;
+}
+.section-media img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.sidebar-title { 
+    color: #282b2f;
+}    
+.sidebar-link { 
+    position: relative;
+    margin-bottom: 80px;
+}
+

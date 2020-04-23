@@ -1,0 +1,27 @@
+.tab { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    width: 250px;
+    color: #fefefe;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #009688;
+    color: #009688;
+    margin-right: 4px;
+    margin-bottom: -2px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.tab:hover { 
+    color: #fff;
+    background-color: #009688;
+}
+.active { 
+    color: #fff;
+    background-color: #009688;
+}
+.tabs { 
+    border-bottom: 2px solid #009688;
+}
